@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @date 09 Oct 2019
  */
 @Controller
-@RequestMapping("/vets")
-public class VetsController {
+@RequestMapping("/owners")
+public class OwnersController {
     @RequestMapping({"", "/", "index", "index.html"})
     public String listVets(){
-        return "vets/index";
+        return "owners/index";
     }
 }
